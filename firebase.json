@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "finanzen-alphadev",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
