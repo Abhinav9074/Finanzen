@@ -233,7 +233,7 @@ class _BudgetListState extends State<BudgetList> {
                                                          Text('₹${int.parse(data.BudgetAmount)-int.parse(data.currentAmount)}',style: const TextStyle(fontFamily:'texgyreadventor-regular',fontSize: 10),),
                                                          const Text('Left',style: TextStyle(fontFamily:'texgyreadventor-regular',fontSize: 10,fontWeight: FontWeight.w900),),
                                                        ],
-                                                     ):const Text('Failed',style: TextStyle(fontFamily:'texgyreadventor-regular',color: Colors.red,fontSize: 15,fontWeight: FontWeight.w900),)
+                                                     ): Text('Exceedeed\n${int.parse(data.currentAmount)-int.parse(data.BudgetAmount)}',textAlign: TextAlign.center,style: TextStyle(fontFamily:'texgyreadventor-regular',color: Colors.red,fontSize: 10,fontWeight: FontWeight.w900),)
                                                     ],
                                                   ),
                                                 ),

@@ -5,7 +5,7 @@ import 'package:money_manager/db/main_db_functions/main_db_functions.dart';
 
 Future<void> main() async{
 
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized(); 
   await InitDb();
   runApp(const MyApp());
 }
